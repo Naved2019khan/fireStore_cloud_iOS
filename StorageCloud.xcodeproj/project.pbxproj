@@ -32,7 +32,6 @@
 		5F5FA5530E20C5F063C6D7B6 /* Pods-StorageCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorageCloud.debug.xcconfig"; path = "Target Support Files/Pods-StorageCloud/Pods-StorageCloud.debug.xcconfig"; sourceTree = "<group>"; };
 		6B1313AD2BE20CF0008C8D6D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6B1313AF2BE22B9C008C8D6D /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
-		6B1313B32BE2425B008C8D6D /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 		6B1313B42BE2446E008C8D6D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6B9F61E02BDFCC6B005CD65B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6BB7B5E62BE0F99C00312CB8 /* AddPostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -90,7 +89,6 @@
 		6BE6248A2B7B453400684265 = {
 			isa = PBXGroup;
 			children = (
-				6B1313B32BE2425B008C8D6D /* .gitignore.md */,
 				6B1313B42BE2446E008C8D6D /* .gitignore */,
 				6BE624952B7B453400684265 /* StorageCloud */,
 				6BE624942B7B453400684265 /* Products */,

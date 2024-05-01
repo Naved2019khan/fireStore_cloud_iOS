@@ -20,7 +20,6 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func LoginButton(_ sender: Any) {
-//        makeTransitionToHome()
         if otpTextField.isUserInteractionEnabled{
             signInMethod()
         }
