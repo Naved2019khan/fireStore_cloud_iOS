@@ -13,6 +13,7 @@ struct Constants {
     var isAuth = "isAuth"
 }
 
+// MARK: - UserDefault Values
 struct UserDefaultValue{
     static var shared = UserDefaultValue()
     var getCurrentMode : String {
