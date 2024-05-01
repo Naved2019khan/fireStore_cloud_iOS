@@ -33,6 +33,7 @@
 		6B1313AD2BE20CF0008C8D6D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6B1313AF2BE22B9C008C8D6D /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		6B1313B32BE2425B008C8D6D /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
+		6B1313B42BE2446E008C8D6D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6B9F61E02BDFCC6B005CD65B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6BB7B5E62BE0F99C00312CB8 /* AddPostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostCollectionViewCell.swift; sourceTree = "<group>"; };
 		6BB7B5E82BE105ED00312CB8 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				6B1313B32BE2425B008C8D6D /* .gitignore.md */,
+				6B1313B42BE2446E008C8D6D /* .gitignore */,
 				6BE624952B7B453400684265 /* StorageCloud */,
 				6BE624942B7B453400684265 /* Products */,
 				0C936888FADF8D3B3E95916F /* Pods */,
