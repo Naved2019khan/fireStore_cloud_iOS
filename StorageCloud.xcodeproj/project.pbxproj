@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B1313AE2BE20CF0008C8D6D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1313AD2BE20CF0008C8D6D /* Constants.swift */; };
+		6B1313B02BE22B9C008C8D6D /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1313AF2BE22B9C008C8D6D /* extension.swift */; };
+		6B9F61E12BDFCC6B005CD65B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B9F61E02BDFCC6B005CD65B /* GoogleService-Info.plist */; };
+		6BB7B5E72BE0F99C00312CB8 /* AddPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7B5E62BE0F99C00312CB8 /* AddPostCollectionViewCell.swift */; };
+		6BB7B5EA2BE105ED00312CB8 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7B5E82BE105ED00312CB8 /* ImageCollectionViewCell.swift */; };
+		6BB7B5EB2BE105ED00312CB8 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB7B5E92BE105ED00312CB8 /* ImageCollectionViewCell.xib */; };
+		6BB7B5EE2BE111FE00312CB8 /* LoaderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7B5ED2BE111FE00312CB8 /* LoaderHelper.swift */; };
+		6BE624972B7B453400684265 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE624962B7B453400684265 /* AppDelegate.swift */; };
+		6BE624992B7B453400684265 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE624982B7B453400684265 /* SceneDelegate.swift */; };
+		6BE6249E2B7B453400684265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6249C2B7B453400684265 /* Main.storyboard */; };
+		6BE624A02B7B453600684265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6249F2B7B453600684265 /* Assets.xcassets */; };
+		6BE624A32B7B453600684265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE624A12B7B453600684265 /* LaunchScreen.storyboard */; };
+		6BE624AD2B7B460A00684265 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE624AC2B7B460A00684265 /* LoginViewController.swift */; };
+		6BE624B82B7B790900684265 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE624B62B7B790900684265 /* PostTableViewCell.swift */; };
+		6BE624B92B7B790900684265 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BE624B72B7B790900684265 /* PostTableViewCell.xib */; };
+		6BE624BB2B7B7BF800684265 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE624BA2B7B7BF800684265 /* PostViewController.swift */; };
+		6BE624BE2B7B867800684265 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE624BD2B7B867800684265 /* Model.swift */; };
+		6BE624C02B7B89D900684265 /* UploadPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE624BF2B7B89D900684265 /* UploadPostViewController.swift */; };
+		B2D992C548BFA1EE7A034423 /* Pods_StorageCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC95D87D8B90F280864AC25 /* Pods_StorageCloud.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F5FA5530E20C5F063C6D7B6 /* Pods-StorageCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorageCloud.debug.xcconfig"; path = "Target Support Files/Pods-StorageCloud/Pods-StorageCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		6B1313AD2BE20CF0008C8D6D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6B1313AF2BE22B9C008C8D6D /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		6B9F61E02BDFCC6B005CD65B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6BB7B5E62BE0F99C00312CB8 /* AddPostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostCollectionViewCell.swift; sourceTree = "<group>"; };
+		6BB7B5E82BE105ED00312CB8 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		6BB7B5E92BE105ED00312CB8 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		6BB7B5ED2BE111FE00312CB8 /* LoaderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderHelper.swift; sourceTree = "<group>"; };
+		6BE624932B7B453400684265 /* StorageCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE624962B7B453400684265 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BE624982B7B453400684265 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6BE6249D2B7B453400684265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BE6249F2B7B453600684265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BE624A22B7B453600684265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BE624A42B7B453600684265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE624AC2B7B460A00684265 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6BE624B02B7B545600684265 /* StorageCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StorageCloud.entitlements; sourceTree = "<group>"; };
+		6BE624B62B7B790900684265 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		6BE624B72B7B790900684265 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		6BE624BA2B7B7BF800684265 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		6BE624BD2B7B867800684265 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6BE624BF2B7B89D900684265 /* UploadPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewController.swift; sourceTree = "<group>"; };
+		9CC95D87D8B90F280864AC25 /* Pods_StorageCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StorageCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF50E92DC83F9EB8A10716C6 /* Pods-StorageCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorageCloud.release.xcconfig"; path = "Target Support Files/Pods-StorageCloud/Pods-StorageCloud.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE624902B7B453400684265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D992C548BFA1EE7A034423 /* Pods_StorageCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C936888FADF8D3B3E95916F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F5FA5530E20C5F063C6D7B6 /* Pods-StorageCloud.debug.xcconfig */,
+				DF50E92DC83F9EB8A10716C6 /* Pods-StorageCloud.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B1313AC2BE20CDE008C8D6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6B1313AD2BE20CF0008C8D6D /* Constants.swift */,
+				6B1313AF2BE22B9C008C8D6D /* extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6BE6248A2B7B453400684265 = {
+			isa = PBXGroup;
+			children = (
+				6BE624952B7B453400684265 /* StorageCloud */,
+				6BE624942B7B453400684265 /* Products */,
+				0C936888FADF8D3B3E95916F /* Pods */,
+				B615E5C8295C75B10CB6CBCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE624942B7B453400684265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE624932B7B453400684265 /* StorageCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE624952B7B453400684265 /* StorageCloud */ = {
+			isa = PBXGroup;
+			children = (
+				6B1313AC2BE20CDE008C8D6D /* Utils */,
+				6BE624BC2B7B866C00684265 /* Model */,
+				6BE624B32B7B784700684265 /* Xib */,
+				6BE624B02B7B545600684265 /* StorageCloud.entitlements */,
+				6BE624AB2B7B45DF00684265 /* ViewController */,
+				6BE624AA2B7B45D300684265 /* Core */,
+				6BE6249C2B7B453400684265 /* Main.storyboard */,
+				6BE6249F2B7B453600684265 /* Assets.xcassets */,
+				6BE624A12B7B453600684265 /* LaunchScreen.storyboard */,
+				6BE624A42B7B453600684265 /* Info.plist */,
+				6B9F61E02BDFCC6B005CD65B /* GoogleService-Info.plist */,
+			);
+			path = StorageCloud;
+			sourceTree = "<group>";
+		};
+		6BE624AA2B7B45D300684265 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6BE624962B7B453400684265 /* AppDelegate.swift */,
+				6BE624982B7B453400684265 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6BE624AB2B7B45DF00684265 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6BE624AC2B7B460A00684265 /* LoginViewController.swift */,
+				6BE624BA2B7B7BF800684265 /* PostViewController.swift */,
+				6BE624BF2B7B89D900684265 /* UploadPostViewController.swift */,
+				6BB7B5E62BE0F99C00312CB8 /* AddPostCollectionViewCell.swift */,
+				6BB7B5ED2BE111FE00312CB8 /* LoaderHelper.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6BE624B32B7B784700684265 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				6BE624B62B7B790900684265 /* PostTableViewCell.swift */,
+				6BE624B72B7B790900684265 /* PostTableViewCell.xib */,
+				6BB7B5E82BE105ED00312CB8 /* ImageCollectionViewCell.swift */,
+				6BB7B5E92BE105ED00312CB8 /* ImageCollectionViewCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		6BE624BC2B7B866C00684265 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BE624BD2B7B867800684265 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B615E5C8295C75B10CB6CBCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CC95D87D8B90F280864AC25 /* Pods_StorageCloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BE624922B7B453400684265 /* StorageCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE624A72B7B453600684265 /* Build configuration list for PBXNativeTarget "StorageCloud" */;
+			buildPhases = (
+				B8C631F97A183089CB9E323C /* [CP] Check Pods Manifest.lock */,
+				6BE6248F2B7B453400684265 /* Sources */,
+				6BE624902B7B453400684265 /* Frameworks */,
+				6BE624912B7B453400684265 /* Resources */,
+				5DEDE5CF58E54016F18B6158 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StorageCloud;
+			productName = StorageCloud;
+			productReference = 6BE624932B7B453400684265 /* StorageCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE6248B2B7B453400684265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					6BE624922B7B453400684265 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BE6248E2B7B453400684265 /* Build configuration list for PBXProject "StorageCloud" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BE6248A2B7B453400684265;
+			productRefGroup = 6BE624942B7B453400684265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE624922B7B453400684265 /* StorageCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BE624912B7B453400684265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE624A32B7B453600684265 /* LaunchScreen.storyboard in Resources */,
+				6BE624B92B7B790900684265 /* PostTableViewCell.xib in Resources */,
+				6B9F61E12BDFCC6B005CD65B /* GoogleService-Info.plist in Resources */,
+				6BE624A02B7B453600684265 /* Assets.xcassets in Resources */,
+				6BB7B5EB2BE105ED00312CB8 /* ImageCollectionViewCell.xib in Resources */,
+				6BE6249E2B7B453400684265 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DEDE5CF58E54016F18B6158 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StorageCloud/Pods-StorageCloud-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StorageCloud/Pods-StorageCloud-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StorageCloud/Pods-StorageCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C631F97A183089CB9E323C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StorageCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE6248F2B7B453400684265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB7B5E72BE0F99C00312CB8 /* AddPostCollectionViewCell.swift in Sources */,
+				6B1313AE2BE20CF0008C8D6D /* Constants.swift in Sources */,
+				6BE624AD2B7B460A00684265 /* LoginViewController.swift in Sources */,
+				6B1313B02BE22B9C008C8D6D /* extension.swift in Sources */,
+				6BE624972B7B453400684265 /* AppDelegate.swift in Sources */,
+				6BE624992B7B453400684265 /* SceneDelegate.swift in Sources */,
+				6BE624BE2B7B867800684265 /* Model.swift in Sources */,
+				6BE624C02B7B89D900684265 /* UploadPostViewController.swift in Sources */,
+				6BB7B5EA2BE105ED00312CB8 /* ImageCollectionViewCell.swift in Sources */,
+				6BE624B82B7B790900684265 /* PostTableViewCell.swift in Sources */,
+				6BE624BB2B7B7BF800684265 /* PostViewController.swift in Sources */,
+				6BB7B5EE2BE111FE00312CB8 /* LoaderHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BE6249C2B7B453400684265 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE6249D2B7B453400684265 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BE624A12B7B453600684265 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE624A22B7B453600684265 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BE624A52B7B453600684265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BE624A62B7B453600684265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BE624A82B7B453600684265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F5FA5530E20C5F063C6D7B6 /* Pods-StorageCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StorageCloud/StorageCloud.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6236H47K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StorageCloud/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StorageCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BE624A92B7B453600684265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF50E92DC83F9EB8A10716C6 /* Pods-StorageCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StorageCloud/StorageCloud.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6236H47K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StorageCloud/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StorageCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BE6248E2B7B453400684265 /* Build configuration list for PBXProject "StorageCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE624A52B7B453600684265 /* Debug */,
+				6BE624A62B7B453600684265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE624A72B7B453600684265 /* Build configuration list for PBXNativeTarget "StorageCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE624A82B7B453600684265 /* Debug */,
+				6BE624A92B7B453600684265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE6248B2B7B453400684265 /* Project object */;
+}
